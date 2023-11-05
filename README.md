@@ -1,0 +1,1 @@
+A CampSite Website that allows users to easily browse, review, and add campsites. Integrated MapBox API for a geo-location of the camps. With a responsive design and integrated authentication system, it offers a seamless experience for campers.

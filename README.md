@@ -21,11 +21,14 @@ The project is a CampSite Managing platform built using MongoDB, Express.js, and
 
 # Technologies
 - MongoDB
+- Mongoose
 - Express.js
 - Node.js
 - Passport.js
 - HTML5
 - CSS
+- EJS
+- BootStrap
 
 
 

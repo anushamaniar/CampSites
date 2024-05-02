@@ -7,7 +7,6 @@ const {cloudinary} = require("../cloudinary");
 
 // Controller for handling GET request to list all campgrounds
 module.exports.index = async (req,res) => {
-
     const campgrounds = await Campground.find({});
     res.render('campgrounds/index', {campgrounds})
 }

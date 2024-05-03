@@ -7,6 +7,7 @@ A CampSite Website that allows users to easily browse, review, and add campsites
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies](#technologies)
+- [Getting Started](#getting-started)
 
 # Project Overview
 The project is a CampSite Managing platform built using MongoDB, Express.js, and Node.js. It incorporates two major features: geolocation of the campsite using MapBox API and authentication and authorization of users using 'passport'. These features are accompanied by common functionalities found in CampSite Managing applications, such as registration, camp creation, rating and reviewing various campsites, and other CRUD funcationalites
@@ -29,6 +30,25 @@ The project is a CampSite Managing platform built using MongoDB, Express.js, and
 - CSS
 - EJS
 - BootStrap
+
+# Getting Started
+1. Install [mongodb](https://www.mongodb.com/)
+2. Create a cloudinary account to get an API key and secret code
+```
+git clone https://github.com/anushamaniar/CampSites.git
+cd CampSites
+npm install
+```
+3. Create a .env file in the root of the project and add the following:
+```
+DATABASEURL='<url>'
+API_KEY='<key>'
+API_SECRET='<secret>'
+```
+4. Run mongod in a terminal and node app.js in another terminal.
+5. Then go to [localhost:3000](http://localhost:3000/).
+
+
 
 
 
